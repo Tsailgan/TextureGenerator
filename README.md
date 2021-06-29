@@ -1,5 +1,5 @@
 # TextureGenerator
-This is a texture generator cooperating with FIYTA
+This is a texture generator
 
 I generated five themes: 
 
