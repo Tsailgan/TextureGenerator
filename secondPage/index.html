@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- stylesheet -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //stylesheet -->
+<!-- online fonts -->
+<link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<!-- //online fonts -->
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+</head>
+<body>
+<div class="agileits_main">
+<!-- header -->
+<div class="w3_agile_logo">
+	<h1 class="text-center"><a href="index.html">FIYTA</a></h1>
+</div>
+<!-- banner -->
+<div class="w3_banner">
+	<div class="container">
+		<div class="slider">
+			<div class="callbacks_container">
+			   <ul class="rslides callbacks callbacks1" id="slider4">
+					<li>	
+						<div class="banner_text_w3layouts">
+							<h3>Once you have it, nothing else you will want</h3>
+							<span> </span>
+							<p>FIYTA</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		  <script src="js/responsiveslides.min.js"></script>
+		  <script>
+			// You can also use "$(window).load(function() {"
+			$(function () {
+			  // Slideshow 4
+			  $("#slider4").responsiveSlides({
+				auto: true,
+				pager:true,
+				nav:true,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+				  $('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+				  $('.events').append("<li>after event fired.</li>");
+				}
+			  });
+		
+			});
+		 </script>
+	   </div>
+	</div>   
+</div>
+<!-- menu -->
+<nav class="navbar navbar-inverse ">
+	<div class="container">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+		</button>
+	<div class="collapse navbar-collapse top-nav w3l" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav linkEffects linkHoverEffect_11 custom-menu">
+			<li class="agile_active"><a href="index.html" class="scroll"><span>home</span></a></li>
+			<li><a href="#about" class="scroll"><span>about us</span></a></li>
+			<li><a href="#gallery" class="scroll"><span>gallery </span></a></li>
+			<li><a href="#team" class="scroll"><span>team</span></a></li>
+			<li><a href="#contact" class="scroll"><span>Contact</span></a></li>
+		</ul>
+	</div>
+	</div>
+</nav>
+<!-- //menu -->
+  </div>	
+<!-- //banner -->	
+<!-- home -->
+<div class="home_ w3layouts" style="height: 600px;">
+ <div class="home_grids_w3">
+  <div class="home_main">
+	   <div class="col-md-6 col-sm-6 col-xs-6 img1 img-grid" style="height: 600px;">
+		   <div class="img_text_w3ls text-center" style="height: 600px;">
+				<h4>Geometric Texture.</h4>
+				<span> </span>
+				<p>from Menndy </p>
+			</div>
+		</div>
+		<div class="col-md-6 img2 col-sm-6 col-xs-6 img-grid" style="height: 600px;" onclick="window.location.href('../html/NatureTexture.html')">
+		    <div class="img_text_w3ls text-center" style="height: 600px;">
+				<h4>Nature Texture.</h4>
+				<span> </span>
+				<p>from Tsailgan </p>
+			  </div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+ </div>
+</div>
+<!-- //home -->
+
+<!-- contact --> 
+<div class="contact-w3-agileits" id="contact">
+	<div class="contact-main">
+		<div class="col-md-7 col-sm-7 col-xs-7 contact-right-w3l">
+			<form action="#" method="post">
+				<input type="text" class="name" name="name" placeholder="First Name" required="">
+				<input type="text" class="name" name="name" placeholder="Last Name" required="">
+				<input type="email" class="name" name="name" placeholder="Email" required="">
+				<input type="text" class="name" name="name" placeholder="Subject" required="">
+				<textarea placeholder="Your Message" required=""></textarea>
+				<input type="submit" value="SEND MESSAGE">
+			</form>
+		</div>
+		<div class="col-md-5 col-sm-5 col-xs-5 contact-left-w3ls">
+			<div class="mail contact-grid-agileinfo">
+				<div class="col-md-1 col-sm-2 col-xs-2 contact-icon-wthree">
+					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+				</div>
+				<div class="col-md-11 col-sm-9 col-xs-9 contact-text-agileinfo">
+					<h4>Mail us</h4>
+					<p><a href="mailto:info@example.com">Tsailgan@tongji.edu.com</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="call contact-grid-agileinfo">
+				<div class="col-md-1 col-sm-2 col-xs-2 contact-icon-wthree">
+					<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+				</div>
+				<div class="col-md-11 col-sm-9 col-xs-9 contact-text-agileinfo">
+					<h4>Call us</h4>
+					<p>+86 15104790650</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="visit contact-grid-agileinfo">
+				<div class="col-md-1 col-sm-2 col-xs-2 contact-icon-wthree">
+					<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+				</div>
+				<div class="col-md-11 col-sm-9  col-xs-9 contact-text-agileinfo">
+					<h4>Visit us</h4>
+					<p>Tongji University, Shanghai, China</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+  </div>
+</div>	
+<!-- //contact --> 
+<!-- subscribe -->
+<div class="subscribe w3_agile">
+ <div class="container">
+    <h3 class="title text-center">subscribe</h3>
+	<div class="subscribe-wthree">
+		<form action="#" method="post">
+			<input type="email" placeholder="Enter email" required=""> 
+			<input type="submit" value="subscribe" class="botton">
+		</form> 
+	</div>
+ </div>	
+</div>
+<!-- //subscribe --> 
+<!-- copy-right -->
+<div class="copy-right agileits-w3layouts">
+	<div class="container">
+		<div class="social-icons agileits">
+     		<ul>
+				<li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
+				<li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
+				<li><a href="#" class="fa fa-google-plus icon icon-border googleplus"> </a></li>
+				<li><a href="#" class="fa fa-dribbble icon icon-border dribbble"> </a></li>
+			</ul>
+			<div class="clearfix"> </div>
+		</div> 
+		<p>Copyright &copy; Tsailgan All rights reserved.</a></p>	
+	</div>
+</div>
+<!-- //copy-right -->
+<!-- Gallery-plugin -->
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.cm-overlay').cmOverlay();
+			});
+		</script>
+<!-- //Gallery-plugin -->
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<script src="js/SmoothScroll.min.js"></script>
+<!-- //end-smooth-scrolling -->	
+<!-- smooth-scrolling-of-move-up -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+		};
+		*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

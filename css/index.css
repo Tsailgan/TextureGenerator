@@ -1,0 +1,42 @@
+#container{
+background-color: aquamarine;
+width: 100px;
+}
+
+.texture_button button{
+    width:30px;
+    height: 30px;
+    border-radius: 30px;
+}
+#color-orange{
+    background-color: rgb(232,165,97);
+    border-color: none;
+}
+#color-black{ 
+    background-color: rgb(16,16,16);
+    border-color: none;
+}
+#color-white{
+    background-color: rgb(206,206,208);
+}
+#color-grey{
+    background-color: rgb(123,123,123);
+}
+#color-green{
+    background-color: rgb(32,71,44);
+}
+#color-blue{
+    background-color: rgb(19,40,77);
+}
+#color-yellow{
+    background-color: rgb(222,186,92);
+}
+#color-brown{
+    background-color: rgb(73,39,34);
+}
+#color-pink{
+    background-color: rgb(165,129,139);
+}
+#color-red{
+    background-color: rgb(155,66,58);
+}
